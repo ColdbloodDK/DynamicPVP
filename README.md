@@ -12,9 +12,9 @@ a PVP zone is created with a default radius of 100 meters. If ZoneDomes is insta
 The PVP zone has a 10 minute (600 seconds) duration by default and will be deleted at the end of that duration. (Locked crate default is 20 minutes)
 The PVP flag, teleport block and ZoneDome (if used) will also be removed.
 
-##If upgrading from Version 1, DELETE your JSON file!
+## If upgrading from Version 1, DELETE your JSON file!
 
-##Console Commands =======================================
+## Console Commands =======================================
 (Restricted to Owners/Moderators)
 
 dynpvp pluginEnabled <true|false> - Enables or disables Dynamic PVP. (Default: true)
@@ -50,7 +50,7 @@ dynpvp list - show current settings
 
 (For Chat commands, just add the slash "/")
 
-##Warnings =======================================
+## Warnings =======================================
  - 1. Use ZoneManager version 2.4.61 or higher.
  - 2. Use TruePVE version 0.8.8 or higher.
  - 3. Reloading or unloading DynamicPVP while a zone is active will not delete the current PVP zones. They will be left in limbo and will require manual deletion.
@@ -111,5 +111,5 @@ dynpvp list - show current settings
 }
 ```
 
-##DONATIONS
+## DONATIONS
 If you LIKE this plugin, please consider donating: http://paypal.me/CatMeat
