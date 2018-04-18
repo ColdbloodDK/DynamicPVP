@@ -1,0 +1,25 @@
+﻿
+
+1.2.3 - Turning on Debug will now also create a log file in your /oxide/logs/DynamicPVP directory. 
+1.2.2 - Minor fix.
+1.2.1 - Minor fix.
+1.2.0 - Added commands and config settings for ignoring supply signals.
+1.1.2 - Zones are now created at TerrainHeight, instead of under map.. or at y=750.
+1.1.1 - Re-added `DynPosition.y = 00.0f` for SupplyDrops. More permanent solution soon.
+1.1.0 - Added `undestr true` to zone mapping to prevent using as raid tool.
+		Added initiating events for BradleyAPC and PatrolHelicopter:
+		Added new event hooks
+		Added new configuration settings
+		Added new commands
+		Fixed errors in command responses.
+		Cleaned and reorganized message handling.
+		Removed `DynPosition.y = 00.0f` from zone creation, causing smaller PVP areas on mountains.
+		(Additional code and ideas provided by Sorrow and Bill...
+1.0.2 - Added teleportation blocking via ZoneManager
+		Added optional dome via integration to ZoneDomes.
+		Added chat and console commands for quick changes.
+		Added new configuration settings.
+1.0.1	PVP zone now starts on Supply Drop spawn.
+		Minor code changes for clarity.
+1.0.0	Initial Public Release 18 DEC 2017
+0.1.0 - Initial creation and testing (Date unknown)
