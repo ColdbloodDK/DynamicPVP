@@ -1197,7 +1197,7 @@ namespace Oxide.Plugins
                 HandleDeleteDynamicZone(zoneId, duration, eventName);
 
                 stringBuilder.Clear();
-                Pool.Free(ref stringBuilder);
+                Pool.FreeUnmanaged(ref stringBuilder);
                 return true;
             }
 
@@ -1328,7 +1328,7 @@ namespace Oxide.Plugins
             }
 
             stringBuilder.Clear();
-            Pool.Free(ref stringBuilder);
+            Pool.FreeUnmanaged(ref stringBuilder);
             return zoneRemoved;
         }
 
@@ -1921,7 +1921,7 @@ namespace Oxide.Plugins
                 }
                 var result = stringBuilder.ToString();
                 stringBuilder.Clear();
-                Pool.Free(ref stringBuilder);
+                Pool.FreeUnmanaged(ref stringBuilder);
                 Print(iPlayer, result);
                 return;
             }
@@ -2025,7 +2025,7 @@ namespace Oxide.Plugins
                     stringBuilder.AppendLine(Lang("Syntax6", iPlayer.Id, configData.Chat.Command));
                     var result = stringBuilder.ToString();
                     stringBuilder.Clear();
-                    Pool.Free(ref stringBuilder);
+                    Pool.FreeUnmanaged(ref stringBuilder);
                     Print(iPlayer, result);
                     return;
 
